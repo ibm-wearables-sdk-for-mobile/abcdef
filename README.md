@@ -1,1 +1,1 @@
-# Interconnect 2016
+# IBM Wearables Swift SDK to use at Hackathons
