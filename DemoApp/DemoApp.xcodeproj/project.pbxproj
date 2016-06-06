@@ -12,6 +12,8 @@
 		E50346B41BE8A41F00B61759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50346B21BE8A41F00B61759 /* Main.storyboard */; };
 		E50346B61BE8A41F00B61759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50346B51BE8A41F00B61759 /* Assets.xcassets */; };
 		E50346B91BE8A41F00B61759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50346B71BE8A41F00B61759 /* LaunchScreen.storyboard */; };
+		E5B7BD291D058C7E00EFA5F7 /* MicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7BD281D058C7E00EFA5F7 /* MicrosoftBand.swift */; };
+		E5B7BD2F1D05911D00EFA5F7 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B7BD2E1D05911D00EFA5F7 /* MicrosoftBandKit_iOS.framework */; };
 		E5E29BE01C75B9520046DD30 /* IBMMobileEdge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E29BDE1C75B9380046DD30 /* IBMMobileEdge.framework */; };
 		E5E29BE11C75B9520046DD30 /* IBMMobileEdge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5E29BDE1C75B9380046DD30 /* IBMMobileEdge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E5E29BE41C75B9950046DD30 /* GemSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E29BE21C75B9900046DD30 /* GemSDK.framework */; };
@@ -62,6 +64,8 @@
 		E50346BF1BE8A41F00B61759 /* DemoApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50346CA1BE8A41F00B61759 /* DemoApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55BC4131C147A690080A0C1 /* DemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E5B7BD281D058C7E00EFA5F7 /* MicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrosoftBand.swift; sourceTree = "<group>"; };
+		E5B7BD2E1D05911D00EFA5F7 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
 		E5E29BDE1C75B9380046DD30 /* IBMMobileEdge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMMobileEdge.framework; sourceTree = "<group>"; };
 		E5E29BE21C75B9900046DD30 /* GemSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GemSDK.framework; sourceTree = "<group>"; };
 		E5E29BE81C75F1570046DD30 /* Gemsense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gemsense.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E29BE01C75B9520046DD30 /* IBMMobileEdge.framework in Frameworks */,
+				E5B7BD2F1D05911D00EFA5F7 /* MicrosoftBandKit_iOS.framework in Frameworks */,
 				E5E29BE41C75B9950046DD30 /* GemSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +102,7 @@
 		E50346A21BE8A41F00B61759 = {
 			isa = PBXGroup;
 			children = (
+				E5B7BD2E1D05911D00EFA5F7 /* MicrosoftBandKit_iOS.framework */,
 				E5E29BE21C75B9900046DD30 /* GemSDK.framework */,
 				E5E29BDE1C75B9380046DD30 /* IBMMobileEdge.framework */,
 				E50346AD1BE8A41F00B61759 /* DemoApp */,
@@ -117,6 +123,7 @@
 		E50346AD1BE8A41F00B61759 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E5B7BD281D058C7E00EFA5F7 /* MicrosoftBand.swift */,
 				E5E29BE81C75F1570046DD30 /* Gemsense.swift */,
 				E50346AE1BE8A41F00B61759 /* AppDelegate.swift */,
 				E50346B01BE8A41F00B61759 /* ViewController.swift */,
@@ -199,6 +206,7 @@
 				TargetAttributes = {
 					E50346AA1BE8A41F00B61759 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = L68MW7D9J9;
 					};
 					E50346BE1BE8A41F00B61759 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -263,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E50346B11BE8A41F00B61759 /* ViewController.swift in Sources */,
+				E5B7BD291D058C7E00EFA5F7 /* MicrosoftBand.swift in Sources */,
 				E50346AF1BE8A41F00B61759 /* AppDelegate.swift in Sources */,
 				E5E29BE91C75F1570046DD30 /* Gemsense.swift in Sources */,
 			);

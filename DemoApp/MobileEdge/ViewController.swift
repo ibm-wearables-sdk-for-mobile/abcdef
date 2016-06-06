@@ -29,7 +29,7 @@ class ViewController: UIViewController, ConnectionStatusDelegate{
     
     /*
     // Step 1. Create mobile edge controller and device connector
-    var device:DeviceConnector = Gemsense()
+    var device:DeviceConnector = Gemsense() //or use MicrosoftBand()
     let controller = MobileEdgeController()
     */
     
@@ -136,7 +136,7 @@ class ViewController: UIViewController, ConnectionStatusDelegate{
     }
     
     func showMobileEdgeDialog(message:String){
-        let alert = UIAlertController(title: "Interconnect 2016", message: message, preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Hackathon", message: message, preferredStyle: .Alert)
         let continueAction = UIAlertAction(title: "Continue", style: .Default, handler: nil)
         alert.addAction(continueAction)
         self.presentViewController(alert, animated: true, completion: nil)
